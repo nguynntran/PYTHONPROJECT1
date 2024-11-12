@@ -1,24 +1,23 @@
-# PYTHONPROJECT2
+# PYTHONPROJECT1
 ## PYPROJECT
 
-## MY PERSONAL PYTHON PROJECT: BUILDING PYTHON MUSIC PLAYER 
+## MY PERSONAL PYTHON PROJECT: BUILDING GUI VISUALIZE DATA IN MANY TYPES OF GRAPH.
 
 ### I. Description:
 
-I will build a small music player apps to play music file in my computer
-I will import some neccesary libraries and pictures to build app.
-This app can play song likes Windows Media Player, I will two powerful Python libraries: Tkinter and Pygame. Tkinter will help us create the graphical user interface (GUI), while Pygame will handle the music playback.
+I will build a small GUI to show data visualiaztion in many types of graph
+I will import some neccesary libraries to draw graphs.
+I will use three powerful Python libraries: Tkinter, pandas, matplotlib. Tkinter will help us create the graphical user interface (GUI), while pandas and matplotlib will handle the data analysis and data visualization.
 
 ### II. Functionality:
 
 These are some functionality in my app:
 
-Add song from folder : Opens a dialog for you to choose a folder and loads all MP3 songs from that folder into the playlist.
-Play music button : Plays the song you select or resumes playing if the music was paused.
-Pause music button : Pauses the song that is currently playing.
-Next song button: Plays the next song in the playlist.
-Previous song button: Plays the previous song in the playlist.
+Import CSV files button: We can choose and import csv files, which you need visualize the data.
+Type of graph button: We can choose the type of graph, you want to draw.
+Plot graph button: Use this button to show the graph for users, choose the column in data frame to show the graph.
 ### III. Architecture:
 
-I will import some neccesary libraries: Tkinter ,Pygame , os and requests library in the following manner to create the GUI, handle the music playback , to interact with the operating system to list MP3 files in a directory and to download the icons from weblinks
-The Music Player App created using Python combines the Tkinter and Pygame libraries to offer a straightforward and user-friendly interface for playing music files.
+I will import some neccesary libraries: Tkinter to handle GUI, created the functional button.
+Import Pandas to read csv files, and analyze the data.
+Matplotlib to draw the graph.
